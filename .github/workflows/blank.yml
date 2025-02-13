@@ -39,7 +39,7 @@ jobs:
       - uses: actions/checkout@v4
   docker:
     runs-on: ubuntu-latest
-    container: node:lts-alpine
+    container: alpinelinux/docker-alpine:latest
     steps:
       - name: Check things
         run: |
