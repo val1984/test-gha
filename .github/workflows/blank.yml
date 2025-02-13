@@ -54,5 +54,7 @@ jobs:
           echo $GITHUB_WORKSPACE
           echo -n "github.workspace: "
           echo ${{ github.workspace }}
+          echo "List /__w"
+          ls -la /__w
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
